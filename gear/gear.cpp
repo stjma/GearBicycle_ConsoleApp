@@ -21,6 +21,10 @@ int main()
 
 
 
-//Gear ratio = chainring / cog
+// Gear ratio = chainring / cog
 
-// 
+// Inch = Ratio / Wheel diameter (Inch)
+
+// meters =  ratio * wheel circumference(meters)
+
+// speed = Wheel ciconference * gear ratio * cadence
