@@ -17,7 +17,6 @@ int main()
 	int coMax = 20;
 
 	
-
 	/*
 	cout << "Chainring min";
 	cin >> chainringMin;
@@ -36,7 +35,6 @@ int main()
 	int cogCount = ((cogMin - coMax) + 1);
 
 
-	
 	//All chainring number
 	vector<int> chainringArrays;
 	for (int i = chainringMin; i <= chainringMax; i++)
@@ -47,6 +45,7 @@ int main()
 	//for (int i = 0; i < (int)chainringArrays.size(); i++)
 		//cout << chainringArrays.at(i) << endl;
 
+
 	//All cog numbers
 	vector<int> cogArrays;
 	for (int i = cogMin; i <= coMax; i++)
@@ -54,14 +53,8 @@ int main()
 		cogArrays.push_back(i);
 		//cout << i << " ";
 	}
-
-	
-	
-	
-
 	//for (int i = 0; i < (int)cogArrays.size(); i++)
 		//cout << cogArrays.at(i) << endl;
-	
 	
 	vector<vector<double>> gearRatioResult;
 	for (int i = 0; i < cogArrays.size(); i++)
@@ -99,17 +92,6 @@ int main()
    // speed = Wheel ciconference * gear ratio * cadence
 
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
 
 
 
