@@ -5,7 +5,16 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+
+
+   // Gear ratio = chainring / cog
+
+   // Inch = Ratio / Wheel diameter (Inch)
+
+   // meters =  ratio * wheel circumference(meters)
+
+   // speed = Wheel ciconference * gear ratio * cadence
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
@@ -21,12 +30,5 @@ int main()
 
 
 
-// Gear ratio = chainring / cog
-
-// Inch = Ratio / Wheel diameter (Inch)
-
-// meters =  ratio * wheel circumference(meters)
-
-// speed = Wheel ciconference * gear ratio * cadence
 
 
