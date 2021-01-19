@@ -57,7 +57,7 @@ int main()
 		//cout << cogArrays.at(i) << endl;
 	
 
-	//Gear ratop calcul.
+	//Gear ratio calcul.
 	vector<vector<double>> gearRatioResult;
 	for (int i = 0; i < cogArrays.size(); i++)
 	{
