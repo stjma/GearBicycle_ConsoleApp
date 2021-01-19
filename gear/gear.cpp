@@ -28,3 +28,5 @@ int main()
 // meters =  ratio * wheel circumference(meters)
 
 // speed = Wheel ciconference * gear ratio * cadence
+
+
