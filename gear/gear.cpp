@@ -2,13 +2,26 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
 
 
    // Gear ratio = chainring / cog
+	int chainring;
+	int cog;
 
+	cout << "Chainring";
+	cin >> chainring;
+
+	cout << "cog";
+	cin >> cog;
+
+
+
+
+	
    // Inch = Ratio / Wheel diameter (Inch)
 
    // meters =  ratio * wheel circumference(meters)
