@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include <vector>
+#include <string>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -57,17 +59,20 @@ int main()
 		//cout << cogArrays.at(i) << endl;
 	
 
-	//Gear ratio calcul.
-	vector<vector<double>> gearRatioResult;
+	//Gear ratio calcul. 
+	vector<vector<string>> gearRatioResult;
 	for (int i = 0; i < cogArrays.size(); i++)
 	{
 		
-		vector<double> gearRatioPartial;
+		vector<string> gearRatioPartial;
 		for (int ii = 0; ii < chainringArrays.size(); ii++)
 		{
-			double ratio = (double)chainringArrays[ii] / (double)cogArrays[i];
+			double  ratio = (double)chainringArrays[ii] / (double)cogArrays[i];
+
+			
+
 			//cout << ratio << "\n";
-			gearRatioPartial.push_back(ratio);
+			gearRatioPartial.push_back(to_string(ratio));
 		}
 		gearRatioResult.push_back(gearRatioPartial);
 	}
